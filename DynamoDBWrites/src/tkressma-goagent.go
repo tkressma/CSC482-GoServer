@@ -144,7 +144,7 @@ func storeAndPoll(pollingRateSecs time.Duration) {
 
 func main() {
 	for true {
-		// Updates every 12 hours.
+		// Updates every 12 hours
 		storeAndPoll(43200)
 	}
 }
