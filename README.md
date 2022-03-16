@@ -12,7 +12,9 @@ This RestAPI was built with Golang using Postman, Loggly, Portainer, Docker, as 
 | */status        | GET| Returns the status     |
 
 <hr> 
-<h3> Postman screenshots for /search endpoint </h3>
+
+## Screenshots
+### Postman screenshots for /search endpoint
 */tkressma/search?city=Yonkers
 
 ![plot](city-query-yonkers.png)
@@ -30,6 +32,8 @@ This RestAPI was built with Golang using Postman, Loggly, Portainer, Docker, as 
 ![plot](invalid-query.png)
 
 <hr>
+
+## Usage
 
 To make go deps "go mod init <projname.go> " and "go mod tidy"  needs to be ran
 this generates a go.mod file which has dependencies and a go.sum which stores the versions of the dependencies
