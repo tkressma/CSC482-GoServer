@@ -1,3 +1,4 @@
+# WeatherQuotes RESTful API
 This RestAPI was built with Golang using Postman, Loggly, Portainer, Docker, as well as a suite of AWS products for hosting and managing the microservice API, specifically the Simple Storage Service (S3), CodeBuild, ECR, ECS, CodePipeline, and Fargate.
 
 <hr> 
