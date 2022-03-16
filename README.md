@@ -3,7 +3,15 @@ This RestAPI was built with Golang using Postman, Loggly, Portainer, Docker, as 
 
 <hr> 
 
-There are 3 endpoints built into the API:
+## Endpoints
+
+| Endpoint |    HTTP Method   |      Action      |
+|--------------|-----------|----------------|
+| */all         | GET | Returns all JSON elements produced |
+| */search         | GET| Returns all JSON matching either 'city' or 'weathercondition'. Returns 404 if no results are returned. Returns 400 if an improper search query is used (E.G. '/tkressma/search/randomquery=random')
+     |
+| */status        | GET| Returns the status     |
+
 
 */all - returns all JSON elements produced
 
